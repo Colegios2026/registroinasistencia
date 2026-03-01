@@ -1,0 +1,5 @@
+{
+  "name": "Convivencia Escolar Platform",
+  "description": "Plataforma de gestión de convivencia escolar bajo las Circulares 781 y 782 (2025/2026) de la Superintendencia de Educación, con integración a Supabase.",
+  "requestFramePermissions": []
+}

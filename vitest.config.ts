@@ -1,0 +1,11 @@
+import { defineConfig } from 'vitest/config';
+
+export default defineConfig({
+  test: {
+    include: ['src/**/*.test.ts', 'src/**/*.benchmark.ts'],
+    exclude: ['e2e/**', 'node_modules/**', 'dist/**'],
+    globals: true,
+    environment: 'node',
+    pool: 'forks',
+  },
+});
